@@ -1,0 +1,211 @@
+' MOD-001++
+    Dim A1 As Range, A2 As Range, A3 As Range
+    Dim B1 As Range, B2 As Range, B3 As Range
+' MOD-001++s
+
+' MOD-001++
+
+    Set A1 = Range("A2")
+    Set A3 = Range("D36")
+    
+    Range("D36,F36").ClearContents
+    
+    If A1.Value <> blank Then
+      
+      Set A2 = Range("D2")
+  
+      A3.Value = A3.Value + A2.Value
+    
+    End If
+    
+    Set A1 = Range("A5")
+    
+    If A1.Value <> blank Then
+      
+      Set A2 = Range("D5")
+ 
+      A3.Value = A3.Value + A2.Value
+    
+    End If
+    
+    Set A1 = Range("A8")
+    
+    If A1.Value <> blank Then
+      
+      Set A2 = Range("D8")
+      A3.Value = A3.Value + A2.Value
+    
+    End If
+    
+    Set A1 = Range("A11")
+    
+    If A1.Value <> blank Then
+      
+      Set A2 = Range("D11")
+      A3.Value = A3.Value + A2.Value
+    
+    End If
+    
+    Set A1 = Range("A14")
+    
+    If A1.Value <> blank Then
+      
+      Set A2 = Range("D14")
+      A3.Value = A3.Value + A2.Value
+    
+    End If
+    
+    Set A1 = Range("A17")
+    
+    If A1.Value <> blank Then
+      
+      Set A2 = Range("D17")
+      A3.Value = A3.Value + A2.Value
+    
+    End If
+    
+    Set A1 = Range("A20")
+    
+    If A1.Value <> blank Then
+      
+      Set A2 = Range("D20")
+      A3.Value = A3.Value + A2.Value
+    
+    End If
+    
+    Set A1 = Range("A23")
+    
+    If A1.Value <> blank Then
+      
+      Set A2 = Range("D23")
+      A3.Value = A3.Value + A2.Value
+    
+    End If
+    
+    Set A1 = Range("A26")
+    
+    If A1.Value <> blank Then
+      
+      Set A2 = Range("D26")
+      A3.Value = A3.Value + A2.Value
+    
+    End If
+    
+    Set A1 = Range("A29")
+    
+    If A1.Value <> blank Then
+      
+      Set A2 = Range("D29")
+      A3.Value = A3.Value + A2.Value
+    
+    End If
+    
+    Set A1 = Range("A32")
+    
+    If A1.Value <> blank Then
+      
+      Set A2 = Range("D32")
+      A3.Value = A3.Value + A2.Value
+    
+    End If
+    
+    Set B1 = Range("A2")
+    Set B3 = Range("F36")
+    
+    If B1.Value <> blank Then
+      
+      Set B2 = Range("F2")
+      B3.Value = B3.Value + B2.Value
+    
+    End If
+    
+    Set B1 = Range("A5")
+    
+    If B1.Value <> blank Then
+      
+      Set B2 = Range("F5")
+      B3.Value = B3.Value + B2.Value
+    
+    End If
+    
+    Set B1 = Range("A8")
+    
+    If B1.Value <> blank Then
+      
+      Set B2 = Range("F8")
+      B3.Value = B3.Value + B2.Value
+    
+    End If
+    
+    Set B1 = Range("A11")
+    
+    If B1.Value <> blank Then
+      
+      Set B2 = Range("F11")
+      B3.Value = B3.Value + B2.Value
+    
+    End If
+    
+    Set B1 = Range("A14")
+    
+    If B1.Value <> blank Then
+      
+      Set B2 = Range("F14")
+      B3.Value = B3.Value + B2.Value
+    
+    End If
+    
+    Set B1 = Range("A17")
+    
+    If B1.Value <> blank Then
+      
+      Set B2 = Range("F17")
+      B3.Value = B3.Value + B2.Value
+    
+    End If
+    
+    Set B1 = Range("A20")
+    
+    If B1.Value <> blank Then
+      
+      Set B2 = Range("F20")
+      B3.Value = B3.Value + B2.Value
+    
+    End If
+    
+    Set B1 = Range("A23")
+    
+    If B1.Value <> blank Then
+      
+      Set B2 = Range("F23")
+      B3.Value = B3.Value + B2.Value
+    
+    End If
+    
+    Set B1 = Range("A26")
+    
+    If B1.Value <> blank Then
+      
+      Set B2 = Range("F26")
+      B3.Value = B3.Value + B2.Value
+    
+    End If
+    
+    Set B1 = Range("A29")
+    
+    If B1.Value <> blank Then
+      
+      Set B2 = Range("F29")
+      B3.Value = B3.Value + B2.Value
+    
+    End If
+    
+    Set B1 = Range("A32")
+    
+    If B1.Value <> blank Then
+      
+      Set B2 = Range("F32")
+      B3.Value = B3.Value + B2.Value
+    
+    End If
+' MOD-001++
